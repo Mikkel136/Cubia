@@ -1,0 +1,41 @@
+# WanderingTrades Config 1.6.6
+debug: false
+language: en_US
+updateLang: true
+enabled: true
+allowMultipleSets: true
+removeOriginalTrades: false
+refreshCommandTraders: true
+refreshCommandTradersMinutes: 6
+wgWhitelist: false
+wgRegionList:
+- RegionExample
+disableCommands: false
+traderWorldList:
+- example_world
+traderWorldWhitelist: false
+preventNightInvisibility: true
+updateChecker: true
+traderSpawnNotifications:
+  # Toggle the notification feature
+  enabled: false
+  
+  # Who to notify. Can be:
+  #  - 'all': all online players
+  #  - 'world': all players in the world the trader spawned in
+  #  - a number (B), i.e. '500': notify players within B blocks of the spawned trader (on the X and Z (horizontal) axes)
+  #  - a number (B) followed by 'box', i.e. '500box': notify players within B blocks of the spawned trader (on the X, Y, and Z (horizontal and vertical) axes)
+  #
+  # Requires 'wanderingtrades.trader-spawn-notifications' permission, which defaults to true
+  notifyPlayers: '500'
+  
+  # Commands to run when a trader spawns
+  commands: []
+  
+  # Commands to run for each (optionally nearby) player when a trader spawns
+  perPlayerCommands:
+  - 'tellraw {player} ["A wandering trader has spawned {distance} blocks away! ({x-pos},
+    {y-pos}, {z-pos}) (uuid: {trader-uuid})"]'
+  - execute at {player} run playsound minecraft:block.note_block.cow_bell neutral
+    {player}
+  - effect give {trader-uuid} glowing 30

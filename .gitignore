@@ -1,4 +1,12 @@
 
+#Ignore temporarily until feature-complete
+
+plugins/Geyser-Spigot/packs/
+plugins/Geyser-Spigot/custom_mappings/
+plugins/DiscordSRV/
+
+
+
 # Ignore Purpur - Please obtain this yourself and show their team some love
 
 *.jar
@@ -14,6 +22,7 @@ versions/
 .console_history
 banned-ips.json
 banned-players.json
+eula.txt
 ops.json
 usercache.json
 version_history.json
@@ -49,7 +58,7 @@ plugins/CoreProtect/database.db
 plugins/CustomDiscs/musicdata/
 plugins/DiscordSRV/discord-console-logs/
 plugins/DiscordSRV/accounts.aof
-plugins/DiscordSRV/linkedaccounts.yml
+plugins/DiscordSRV/linkedaccounts.json
 plugins/DiscordSRV/*.old
 plugins/floodgate/key.pem
 plugins/Geyser-Spigot/cache/
@@ -65,6 +74,8 @@ plugins/PaperTweaks/*.bak
 plugins/ProtocolLib/lastupdate
 plugins/spark/activity.json
 plugins/squaremap/data/
+plugins/squaremap/web/tiles/
+plugins/squaremap/web/skins/
 plugins/squaremap/*.tmp
 plugins/squaremap-banners/data/
 plugins/squaremarker/marker.json
@@ -87,6 +98,7 @@ plugins/WanderingTrades/trades/
 
 # Exclude non-essential config like translations
 
+server-icon.png
 plugins/Brewery/configs/
 plugins/Brewery/languages/
 plugins/CoreProtect/.license
@@ -98,6 +110,9 @@ plugins/LuckPerms/translations/
 plugins/PaperTweaks/i18n
 plugins/PL-Hide/config-?.?.yml
 plugins/squaremap/locale/
+plugins/squaremap/web/css/
+plugins/squaremap/web/images/
+plugins/squaremap/web/live-atlas/favicons/
 plugins/squaremap-banners/icons/
 plugins/squaremap-deathspot/icon.png
 plugins/Train_Carts/Localization.yml

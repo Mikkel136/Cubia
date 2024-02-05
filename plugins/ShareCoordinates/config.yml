@@ -1,0 +1,26 @@
+#%u% = Player name.
+#%c% = Player coordinates.
+#%w% = World where the player was when that player did the command.
+#%x% = Player's X coordinate.
+#%y% = Player's Y coordinate.
+#%z% = Player's Z coordinate.
+tag-prefix: ""
+public-message: "%u% shared their coordinates: &e&l[%x%, %y%, %z%]"
+private-message: "%u% shared their coordinates: &e&l[%x%, %y%, %z%]"
+send-public-message: "Shared coordinates with everyone"
+send-private-message: "Shared coordinates with %u%"
+
+#player-command-click-message Set it to "" to disable
+#%p% = Player who sent the coords.
+#%pc% = Player who clicked the message.
+
+player-command-click-message: ""
+player-not-found: "&c%u% is not available"
+use-permissions: true
+no-permission: "&cYou do not have permission to do this..."
+
+cooldown-commands-seconds: 1
+cooldown-message: "&cPlease wait before typing this command again..."
+
+#use-sounds turn it to false to disable sounds
+use-sounds: false

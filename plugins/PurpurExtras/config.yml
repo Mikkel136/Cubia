@@ -1,0 +1,97 @@
+settings:
+  items:
+    beehive-lore:
+      enabled: true
+      bees: '<reset><gray>Bees: <bees>/<maxbees>'
+      honey: '<reset><gray>Honey level: <honey>/<maxhoney>'
+  blocks:
+    chorus-flowers-always-drop: true
+    shift-right-click-for-invisible-item-frames: true
+  gameplay-settings:
+    respawn-anchor-needs-charges: true
+    open-iron-doors-with-hand: false
+    open-iron-trapdoors-with-hand: false
+    spawner-placement-requires-specific-permission: false
+    cancel-damage-from-pet-owner: false
+    fall-damage-when-jump-boost-applied: true
+    run-faster-on-paths:
+      speed-multiplier: 0
+      path-blocks:
+      - DIRT_PATH
+      duration: 2
+  chat:
+    escape-commands: true
+    send-sleep-percentage-message:
+      player-sleeping: <grey><playername> is now sleeping... (<sleeping>/<needed>)
+      skipping-night: <grey>Night skipped. Rise and shine!
+      enabled: false
+  anvil-crushes-blocks:
+    blocks:
+      stone: cobblestone
+      cobblestone: gravel
+      deepslate: cobbled_deepslate
+      stone_bricks: cracked_stone_bricks
+    enabled: false
+  grindstone:
+    gives-enchants-back: false
+  rideables:
+    mob-needs-to-be-nametagged-to-ride: false
+  use-notarget-permissions: true
+  dye-boss-bars: false
+  lightning-transforms-entities:
+    enabled: true
+    entities:
+      villager: witch
+      pig: zombie_piglin
+      horse: zombie_horse
+      skeleton: wither_skeleton
+      wandering_trader: vindicator
+  dispenser:
+    break-blocks:
+      pickaxe: false
+      shovel: false
+      hoe: false
+      axe: false
+      shears: false
+    shears-shear-pumpkin: false
+    puts-discs-in-jukebox: true
+    interact-with-cauldron: true
+  smithing-table:
+    tools:
+      wood-to-stone: false
+      stone-to-iron: false
+      iron-to-diamond: false
+  stonecutter-damage-filter:
+    blacklist:
+    - player
+    enabled: false
+  furnace:
+    burn-time:
+      enabled: false
+      multiplier: 1.0
+  totem:
+    work-on-void-death: true
+  block-building-above-nether:
+    height-limit: 128
+    no-permission-message: '<red>Max build height in this world is: <gold><height>'
+    enabled: false
+  shield:
+    damage-reduction: 0.8
+    cooldown: 100
+  anvil-splits-minecarts: false
+  anvil-splits-boats: false
+  unlock-all-recipes-on-join: true
+  protect-blocks-with-loot:
+    message: <red>Prevented you from breaking this block because it can regenerate
+      loot. Sneak to break it anyway.
+    allow-breaking-in-sneak: true
+    message-type: CHAT
+    enabled: false
+  create-suspicious-blocks: false
+  loom:
+    max-layers: 6
+  creeper-squid:
+    enabled: false
+  raid-totem-drops:
+    chance: 0
+    enabled: false
