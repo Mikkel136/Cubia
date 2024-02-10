@@ -7,12 +7,6 @@ plugins/DiscordSRV/
 
 
 
-# Ignore Purpur - Please obtain this yourself and show their team some love
-
-*.jar
-
-
-
 # Ignore locally generated files and dependencies
 
 cache/
@@ -38,9 +32,26 @@ world_the_end/
 
 
 
-# Ignore plugin JARs - Please obtain these yourself and show their devs some love
+# Ignore plugins restricted by license/copyright
 
-plugins/*.jar
+plugins/BetterMessages-?.?.?.jar
+plugins/BetterMessages-?.?.jar
+plugins/custom-discs-?.?.?.jar
+plugins/custom-discs-?.?.jar
+plugins/HasteBoost-?.?.jar
+plugins/Hat-?.?.?.jar
+plugins/Hat-?.?.jar
+plugins/PL-Hide-?.?.???.jar
+plugins/PL-Hide-?.?.??.jar
+plugins/PL-Hide-?.?.?.jar
+plugins/PL-Hide-?.?.jar
+plugins/ShareCoordinates-?.??.?.jar
+plugins/ShareCoordinates-?.??.jar
+plugins/voicechat-bukkit-?.?.??.jar
+plugins/voicechat-bukkit-?.?.?.jar
+plugins/voicechat-bukkit-?.?.jar
+plugins/voicechat-interaction-paper-v?.?.?+?.??.?.jar
+plugins/voicechat-interaction-paper-v?.?.?+?.??.jar
 
 
 
