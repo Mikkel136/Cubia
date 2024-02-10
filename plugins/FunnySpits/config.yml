@@ -1,0 +1,33 @@
+locale: 'en-US'
+
+spit_command_permission: 'funnyspits.use'
+
+# Set to true if you want sound of llama spit to be played near the location
+# of where the player has spat at else set to false.
+spit_with_sound: true
+
+# Intensity value of "spit" (number), value is required to be in the
+# interval of numbers from 1 to 10.
+spit_intensity: 3
+
+# Damage that will be inflicted on the player/mob if it was spat.
+# Must be set to 0 if you want next option to come in place
+# (if the option has a value of true)!
+spit_damage: 2
+
+# Kills player/mob if it was spat if the value is true.
+spit_kill: false
+
+# Spit command cooldown (if value is zero, cooldown is cancelled).
+spit_command_cooldown: 0
+
+bonus_water_spits: 5
+
+sponge_blocks_interaction_enabled: false
+
+sponge_blocks_spits_required: 39
+
+autospit_enabled: false
+
+# Permission for that player to be able to run plugin config reload command.
+reload_command_permission: 'funnyspits.reload'

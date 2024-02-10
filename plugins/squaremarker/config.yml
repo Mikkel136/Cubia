@@ -1,0 +1,11 @@
+command-label: squaremarker
+command-aliases:
+- marker
+- squaremapmarker
+- smarker
+layer-name: Marker
+icon-url: https://cdn.upload.systems/uploads/1zRKxN3t.png
+icon-size: 16
+show-controls: true
+default-hidden: false
+update-rate-milliseconds: 5000

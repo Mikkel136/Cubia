@@ -1,0 +1,258 @@
+#OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
+op-protection: true
+allowed-operators:
+  - Mikkel136
+#If you try to Op someone who isn't in the list
+op-message: "&cOP protection enabled! Please add the new operator in the PL-Hide config."
+#Players who are operators and are not in the list can't connect and will be deop'ed.
+unauthorized-operator-kick-message: '§c§lError: §rOperator privilege mismatch. Please pling @staff on Discord.'
+
+#Message if you type a blocked command | Enter none to disable
+blocked-command-message: "&cUnknown/Disabled command. Type /help for a list of commands."
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+/pl-message: 'none'
+
+#Stay on the newest version to get better features!
+#Enable or disable automatic ingame update notification on join
+update-notify: true
+
+
+#A tab-completion that applies to all players except for those with the plhide.bypass permission
+#Can only add a whole command.
+custom-tab: false
+tab:
+  - example1
+  - example2
+
+groups:
+  #if no group is set via plhide.group.<group> this will be applied
+  #do not rename the default group!
+  #blocked commands will be automatically removed from the tabcompletion
+  default:
+    commands:
+      - minecraft:me
+      - minecraft:kill
+      - minecraft:help
+      - minecraft:list
+      - minecraft:msg
+      - minecraft:teammsg
+      - minecraft:tell
+      - minecraft:tm
+      - minecraft:trigger
+      - minecraft:w
+      - minecraft:particle
+      - minecraft:say
+      - minecraft:scoreboard
+      - minecraft:seed
+      - minecraft:spectate
+      - minecraft:team
+      - minecraft:title
+      - bukkit:?
+      - bukkit:help
+      - bukkit:pl
+      - bukkit:plugins
+      - bukkit:ver
+      - bukkit:version
+      - bukkit:about
+      - spigot:tps
+      - ver
+      - version
+      - about
+      - bukkit
+      - icanhasbukkit
+      - pl
+      - plugins
+      - discordsrv
+      - discordsrv:discord
+      - discordsrv:discordsrv
+      - sharecoordinates:c
+      - vanillatweaks
+      - vtweaks
+      - vt
+      - papertweaks
+      - papertweaks:vanillatweaks
+      - papertweaks:findworkstation
+      - papertweaks:tcp
+      - papertweaks:tnv
+      - papertweaks:toggleconduitpower
+      - papertweaks:togglecp
+      - papertweaks:togglenv
+      - papertweaks:togglenightvision
+      - papertweaks:vt
+      - papertweaks:vtweaks
+      - vivecraft-spigot-extensions:vive
+      - vivecraft-spigot-extensions:vse
+      - pt
+      - ptweaks
+      - wt
+      - wanderingtrades
+      - wanderingtrades:wt
+      - wanderingtrades:wanderingtrades
+      - brewery
+      - brewery:brew
+      - brewery:brewery
+      - builderswand:bw
+      - builderswand:builderswand
+      - hat:hat
+      - md
+      - mydog
+      - mydog:dog
+      - mydog:dogs
+      - mydog:md
+      - mydog:mydog
+      - bw
+      - builderswand
+      - dping
+      - fwork
+      - fworkstation
+      - hasteboost:hasteboost
+      - hasteboost:hb
+      - hb
+      - list
+      - mmh
+      - mmheads
+      - moremobheads
+      - spark
+      - spark:spark
+      - spark:tps
+      - teffect
+      - papertweaks:dp
+      - papertweaks:dping
+      - papertweaks:durabilityping
+      - papertweaks:find-workstation
+      - papertweaks:findwork
+      - papertweaks:fwork
+      - papertweaks:fworkstation
+      - papertweaks:mmh
+      - papertweaks:mmheads
+      - papertweaks:moremobheads
+      - papertweaks:teffect
+      - papertweaks:toggle-effect
+      - dp
+      - funnyspits
+      - funnyspits:funnyspits
+      - funnyspits:spit
+      - hasteboost
+      - mps
+      - mpsleep
+      - multiplayersleep
+      - pcoords
+      - purpurextras
+      - purpurextras:purpurextras
+      - papertweaks:mps
+      - papertweaks:mpsleep
+      - papertweaks:multiplayersleep
+      - papertweaks:pcoords
+      - papertweaks:portalcoords
+      - customdiscs:cd
+      - customdiscs:customdisc
+      - voicechat:voicechat
+      - smarker
+      - squaremap:map
+      - squaremap:squaremap
+      - squaremapmarker
+      - squaremarker
+      - squaremarker:marker
+      - squaremarker:smarker
+      - squaremarker:squaremapmarker
+      - squaremarker:squaremarker
+      - vane:trifles:finditem
+      - vdt
+      - viewdistancetweaks
+      - viewdistancetweaks:vdt
+      - viewdistancetweaks:viewdistancetweaks
+      - map
+      - dogs
+      - lp
+      - luckperms
+      - luckperms:lp
+      - luckperms:luckperms
+      - luckperms:perm
+      - luckperms:permission
+      - luckperms:permissions
+      - luckperms:perms
+      - perm
+      - permission
+      - permissions
+      - perms
+      - cd
+      - findwork
+      - phd
+      - pheaddrops
+      - playerheaddrops
+      - squaremap
+      - teammsg
+      - papertweaks:phd
+      - papertweaks:pheaddrops
+      - papertweaks:playerheaddrops
+      - papertweaks:papertweaks
+      - papertweaks:pt
+      - papertweaks:ptweaks
+      - train_carts:cart
+      - train_carts:savedtrain
+      - train_carts:train
+      - geyser
+      - geyser-spigot:geyser
+      - co
+      - coreprotect:co
+      - brew
+      - floodgate:floodgate
+      - floodgate:fwhitelist
+      - floodgate:linkaccount
+      - floodgate:unlinkaccount
+      - floodgate
+      - fwhitelist
+      - unlinkaccount
+      - linkaccount
+      - minecraft:uptime
+      - minecraft:ping
+      - ?
+      - bkcommonlib
+      - bkcommonlib:bkcommonlib
+      - callback
+      - paper:callback
+
+      #SHOULD ONLY BE VISIBLE FOR SPECTATORS
+      - toggle-effect
+      - spectate
+      - tcp
+      - tnv
+      - togglecp
+      - togglenv
+      - toggleconduitpower
+      - togglenightvision
+      #PL-HIDE COMMANDS
+      - pl-hide:plhide
+      - plhide
+   #whether the list is a "blacklist" list or a "whitelist"
+    group-mode: blacklist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 0
+    #here you can add other groups
+    #only the same group type will be applied (group-mode)
+    included-groups:
+      - Test
+  #add permission plhide.group.spectator to apply this group
+  spectator:
+    commands:
+      #VISIBILITY AND NAVIGATION
+      - toggle-effect
+      - spectate
+      - tcp
+      - tnv
+      - togglecp
+      - togglenv
+      - toggleconduitpower
+      - togglenightvision
+      - gamemode
+      #OTHER
+      - seed
+    group-mode: whitelist
+    priority: 1
+    included-groups:
+      - none
+
+
+#Don't change
+version: "1.3"

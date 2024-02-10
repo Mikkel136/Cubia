@@ -1,0 +1,38 @@
+Hi there!
+
+Due to copyright limitations, we're not able to bundle *all* the plugins you need in this repo.
+
+Instead, we kindly ask you to download these plugins yourselves to avoid a drgraded experience.
+
+
+============================
+PLUGINS YOU NEED TO DOWNLOAD
+============================
+
+Better Messages by JustDoom
+	https://hangar.papermc.io/JustDoom/BetterMessages
+
+CustomDiscs by Navoei
+	https://github.com/Navoei/CustomDiscs
+
+Haste Boost by Endermite and zTonesterz
+	https://www.spigotmc.org/resources/haste-boost.9973/
+
+Hat by Sigong
+	https://www.spigotmc.org/resources/hat.33980/
+
+Plugin Hide by Nononitas
+	https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/
+
+Share Coordinates by MrAlby
+	https://www.spigotmc.org/resources/share-coordinates.80632/
+
+SquareMarker by SentixDev
+	https://github.com/SentixDev/squaremarker/releases
+
+Simple Voice Chat by henkelmax
+	https://modrinth.com/plugin/simple-voice-chat
+	<!> Select the "Purpur" version!
+
+Voice Chat Interaction for Paper by malloryhayr
+	https://github.com/malloryhayr/voicechat-interaction-paper

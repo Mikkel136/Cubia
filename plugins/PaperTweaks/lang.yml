@@ -1,0 +1,66 @@
+prefix: '&r'
+error-prefix: '&c'
+reload: '&aConfiguration/Modules/Lang reloaded. &cIf you are overriding commands from
+  this plugin with commands from another plugin, you should do a full reload of the
+  server.'
+not-enabled: This module has been disabled!
+scoreboard-on: 'Enabled scoreboard: %board%'
+scoreboard-off: 'Disabled scoreboard: %board%'
+coordinateshud:
+  hud-on: Coordinates will now display in HUD
+  hud-off: Coordinates will no longer display in HUD
+durabilityping:
+  dp-toggled-on: Durability ping has been enabled
+  dp-toggled-off: Durability ping has been disabled
+mobcounting:
+  started-count: Started counting mob deaths...
+  stopped-count: Stopped counting mob deaths
+  reset-count: '&eMob count has been reset!'
+playergraves:
+  grave-at: 'Your grave is located at: &e&l%x% %y% %z%'
+  retrieved-items: '&7&oYour items has been retrieved!'
+sethome:
+  home-limit: '&cYou have reached your home limit'
+  home-set: Home has been updated
+  no-home-set: '&cYou have not set a home yet'
+  home-cooldown: '&cThis ability is on cooldown: %time% seconds left'
+  no-dimensional: '&cYou cannot teleport to your home across dimensions'
+  go-to-home: '&7&oTeleported to home...'
+  admin:
+    player-not-found: '&cSethome info for %player% not found'
+    player-reset: Reset sethome limit for %player%
+spawningspheres:
+  color-already-displayed: '&cThe %color% sphere is already displayed!'
+  displayed-sphere: Displayed the %color% sphere.
+  color-already-removed: '&cThe %color% sphere has already been removed!'
+  sphere-error: '&cCould not find a %color% sphere. Make sure you are in the same
+    world and they are loaded.'
+  removed-sphere: The %color% sphere has been removed.
+thundershrine:
+  no-stand-found: '&cCould not find a valid armor stand near you!'
+  no-shrine: '&cCould not find a shrine owned by you!'
+  removed-shrine: Removed the shrine.
+  storm-started: '&7&oA great storm has been initiated...'
+killemptyboats:
+  kill-boats: '%num% empty boats has been removed'
+villagerdeathmessages:
+  villager-death: 'A villager has died: &e&l(%x% %y% %z%) &r(%world%)'
+  villager-conversion: A villager has been zombiefied!
+pillagertools:
+  pillager-toggle: '&7%setting% &rhas been set to %val%'
+workstationhightlights:
+  no-villager: '&cNo villager was found within 3 blocks'
+workstationhighlights:
+  no-job-site: '&cThis villager does not have a job site'
+  highlighted-site: Highlighted the workstation!
+tag:
+  player-is-it: '%name% has been tagged!'
+  player-is-afk: '&7&o%name% is afk...'
+  player-is-already-it: '%name% is already tagged!'
+  cooldown-active: '&cPlease wait before tagging. %time% &eseconds left...'
+portalcoords:
+  player-in-overworld: 'Nether coordinates: &e&l%x% %y% %z%'
+  player-in-nether: 'Overworld coordinates: &e&l%x% %y% %z%'
+  invalid-world: '&cThis function cannot be used in this world'
+multiplayersleep:
+  player-sleeping: '&e%player% is sleeping (%sleeping%/%total%).'

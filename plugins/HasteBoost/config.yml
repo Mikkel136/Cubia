@@ -1,0 +1,7 @@
+# CONFIG FOR HASTE BOOST By Sebastian Richel https://github.com/sebastianrich18/
+# minYLvl: the level below which haste is boosted
+yLvl: 0
+# netherirePicOnly: wether or not haste is only boosted when using a netherite pic
+netheritePicOnly: true
+# boostAmplifier: level of haste to be applied (min 7 for deepslate insta mine)
+boostAmplifier: 7
