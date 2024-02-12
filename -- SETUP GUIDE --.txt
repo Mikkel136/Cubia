@@ -1,8 +1,8 @@
 Hi there!
 
-Due to copyright limitations, we're not able to bundle *all* the plugins you need in this repo.
+Due to copyright limitations, we're not able to bundle *all* the plugins and data packs you need in this repo.
 
-Instead, we kindly ask you to download these plugins yourselves to avoid a drgraded experience.
+Instead, we kindly ask you to download these dependencies yourselves to avoid a degraded experience.
 
 
 ============================
@@ -11,28 +11,68 @@ PLUGINS YOU NEED TO DOWNLOAD
 
 Better Messages by JustDoom
 	https://hangar.papermc.io/JustDoom/BetterMessages
+............................................................
+>> Improved join/quit message + dimention change messages <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 CustomDiscs by Navoei
 	https://github.com/Navoei/CustomDiscs
+..........................................................................................
+>> Allow upload & playback of custom audio files in-game. Simple Voicechat mod required <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Haste Boost by Endermite and zTonesterz
 	https://www.spigotmc.org/resources/haste-boost.9973/
+...............................................................................
+>> Instantly mine deepslate at level 0 to -60 with Effeciency V and Haste II <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Hat by Sigong
 	https://www.spigotmc.org/resources/hat.33980/
+......................................................
+>> Allow any block/item to be equipped to your head <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Plugin Hide by Nononitas
 	https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/
+...............................
+>> Clean up the Command List <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
-Share Coordinates by MrAlby
+Share Coordinates by MrAlby	>>    
 	https://www.spigotmc.org/resources/share-coordinates.80632/
+.................................................
+>> Add /c command to quickly share coordinates <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 SquareMarker by SentixDev
 	https://github.com/SentixDev/squaremarker/releases
+...................................................
+>> Allows custom markers on the online world map <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Simple Voice Chat by henkelmax
 	https://modrinth.com/plugin/simple-voice-chat
 	<!> Select the "Purpur" version!
+..................................................
+>> Server-side Simple Voice Chat implementation <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Voice Chat Interaction for Paper by malloryhayr
 	https://github.com/malloryhayr/voicechat-interaction-paper
+................................................................
+>> Allow Simple Voice Chat to alert sculk sensors and wardens <<
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+
+
+
+====================================
+DATA PACKS YOU MIGHT WANT TO INCLUDE
+====================================
+
+Armor Statues	>>   Customize Armor Stands without using commands/cheats
+	https://vanillatweaks.net/picker/datapacks/
+
+Custom Roleplay Data	>>    Append custom Texture ID to use with a custom Resource Pack
+	https://www.curseforge.com/minecraft/customization/custom-roleplay-data-datapack
+

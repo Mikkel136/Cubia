@@ -24,11 +24,31 @@ whitelist.json
 
 
 
-# Ignore World Files
+# Ignore World Files (except data packs and config)
 
-world/
+world/advancements/
+world/data/
+world/entities/
+world/playerdata/
+world/poi/
+world/region/
+world/stats/
+world/session.lock
+world/*.dat
+world/*.dat_old
+
 world_nether/
 world_the_end/
+
+
+
+#Ignore Data Packs restricted by license/copyright
+
+world/datapacks/armor_statues_v?.?.??.zip
+world/datapacks/armor_statues_v?.?.?.zip
+world/datapacks/custom_roleplay_data_v?.?.zip
+world/datapacks/tac-v?-?-?.zip
+world/datapacks/VanillaTweaks_c521941_MC1.20-1.20.4.zip
 
 
 
