@@ -89,6 +89,6 @@ MODIFY THE RESOURCE PACK TEMPLATE
 3. Upload your changed template to a website (GitHub, for example)
 4. Open "server.PROPERTIES" and change "resource-pack" 
    >> from
-	   https\://github.com/Mikkel136/Cubia/blob/main/RESOURCE_PACK_TEMPLATE.zip
+	   https\://github.com/Mikkel136/Cubia/raw/main/RESOURCE_PACK_TEMPLATE.zip
    >> to
 	   [YOUR NEW LINK HERE]		<!> Don't forget to put a '\' before the colon!
