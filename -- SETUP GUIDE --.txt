@@ -66,6 +66,7 @@ Voice Chat Interaction for Paper by malloryhayr
 
 
 
+
 ====================================
 DATA PACKS YOU MIGHT WANT TO INCLUDE
 ====================================
@@ -76,3 +77,18 @@ Armor Statues	>>   Customize Armor Stands without using commands/cheats
 Custom Roleplay Data	>>    Append custom Texture ID to use with a custom Resource Pack
 	https://www.curseforge.com/minecraft/customization/custom-roleplay-data-datapack
 
+
+
+
+=================================
+MODIFY THE RESOURCE PACK TEMPLATE
+=================================
+
+1. Make the necessary changes to "RESOURCE_PACK_TEMPLATE.zip"
+2. Validate the changes in a Singleplayer test world (if possible)
+3. Upload your changed template to a website (GitHub, for example)
+4. Open "server.PROPERTIES" and change "resource-pack" 
+   >> from
+	   https\://github.com/Mikkel136/Cubia/blob/main/RESOURCE_PACK_TEMPLATE.zip
+   >> to
+	   [YOUR NEW LINK HERE]		<!> Don't forget to put a '\' before the colon!
