@@ -96,8 +96,9 @@ plugins/Geyser-Spigot/cache/
 plugins/LuckPerms/libs/
 plugins/LuckPerms/contexts.json
 plugins/LuckPerms/editor-keystore.json
-plugins/LuckPerms/*.db
-plugins/LuckPerms/*.gz
+plugins/LuckPerms/yaml-storage/users/
+plugins/LuckPerms/yaml-storage/actions.txt
+plugins/LuckPerms/yaml-storage/uuidcache.txt
 plugins/MyDog/dogs.yml
 plugins/PaperTweaks/modules/
 plugins/PaperTweaks/*.db

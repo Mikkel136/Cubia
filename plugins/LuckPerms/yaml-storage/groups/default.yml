@@ -1,0 +1,81 @@
+name: default
+permissions:
+- hat.*
+- allow.ride.ender_dragon
+- allow.ride.ghast
+- allow.ride.llama
+- allow.ride.pig
+- allow.ride.strider
+- allow.ride.trader_llama
+- allow.special.llama
+- allow.special.pig
+- allow.special.strider
+- allow.special.trader_llama
+- bettermessages.enter-overworld
+- bettermessages.exit-overworld
+- bettermessages.first-join
+- bettermessages.join
+- bettermessages.quit
+- brewery.cmd.info
+- brewery.cmd.infoother
+- brewery.cmd.seal
+- brewery.user
+- bukkit.command.ping
+- bukkit.command.tps
+- bukkit.command.tpsbar:
+    value: false
+- bukkit.command.uptime
+- bukkit.command.version:
+    value: false
+- customdiscs.convert
+- customdiscs.create
+- customdiscs.download
+- customdiscs.unlink
+- funnyspits.use
+- minecraft.command.list
+- minecraft.command.particle
+- minecraft.command.ping
+- minecraft.command.say
+- minecraft.command.scoreboard
+- minecraft.command.seed
+- minecraft.command.team
+- minecraft.command.teammsg
+- minecraft.command.title
+- minecraft.command.tm
+- minecraft.command.trigger
+- mydog.dead:
+    value: false
+- mydog.revive:
+    value: false
+- plhide.group.default
+- purpur.book.color
+- purpur.bypassIdleKick
+- purpur.enderchest.rows.five
+- purpur.sign.color
+- purpur.sign.edit
+- purpur.sign.style
+- purpurextras.invisibleframes
+- squaremap.banners.admin
+- squaremarker.help
+- squaremarker.list
+- squaremarker.remove
+- squaremarker.set
+- squaremarker.show
+- train.build.property
+- train.properties
+- train.property.destination
+- vanillatweaks.durabilityping.config
+- vanillatweaks.durabilityping.notification
+- vanillatweaks.moremobheads
+- vanillatweaks.spectatortoggle:
+    value: false
+- vanillatweaks.spectatortoggle.conduitpower:
+    value: false
+- vanillatweaks.spectatortoggle.nightvision:
+    value: false
+- vanillatweaks.wrench.redstone
+- vanillatweaks.wrench.terracotta
+- voicechat.connect
+- voicechat.groups
+- voicechat.listen
+- voicechat.speak

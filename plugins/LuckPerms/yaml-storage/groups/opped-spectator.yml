@@ -1,0 +1,17 @@
+name: opped-spectator
+permissions:
+- allow.ride.ender_dragon
+- bettermessages.join:
+    value: false
+- bettermessages.quit:
+    value: false
+- bettermessages.silent-world-change
+- bettermessages.spectator-join
+- bettermessages.spectator-quit
+- bukkit.command.version
+- discordsrv.silentjoin
+- discordsrv.silentquit
+- displayname.spectator (for /op'd players) -- "spectator" causes problems for opped
+  players
+- minecraft.admin.command_feedback
+- plhide.bypass
