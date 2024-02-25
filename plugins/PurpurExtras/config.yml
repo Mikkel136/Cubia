@@ -46,6 +46,7 @@ settings:
       horse: zombie_horse
       skeleton: wither_skeleton
       wandering_trader: vindicator
+      vex: allay
   dispenser:
     break-blocks:
       pickaxe: false
