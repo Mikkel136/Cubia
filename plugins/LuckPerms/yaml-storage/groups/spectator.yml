@@ -1,0 +1,102 @@
+name: spectator
+permissions:
+- purpur.sign.*:
+    value: false
+- target.bypass.*
+- train.command.*:
+    value: false
+- brewery.*:
+    value: false
+- customdiscs.*:
+    value: false
+- mydog.*:
+    value: false
+- squaremarker.*:
+    value: false
+- train.*:
+    value: false
+- allow.ride:
+    value: false
+- bettermessages.join:
+    value: false
+- bettermessages.quit:
+    value: false
+- bettermessages.silent-world-change
+- bettermessages.spectator-join
+- bettermessages.spectator-quit
+- brewery.cmd.info:
+    value: false
+- bukkit.broadcast:
+    value: false
+- c.use:
+    value: false
+- discordsrv.chat:
+    value: false
+- discordsrv.discord:
+    value: false
+- discordsrv.help:
+    value: false
+- discordsrv.link:
+    value: false
+- discordsrv.linked:
+    value: false
+- discordsrv.silentjoin
+- discordsrv.silentquit
+- funnyspits.use:
+    value: false
+- luckperms.info:
+    value: false
+- minecraft.command.gamemode.adventure
+- minecraft.command.gamemode.spectator
+- minecraft.command.help:
+    value: false
+- minecraft.command.list:
+    value: false
+- minecraft.command.me:
+    value: false
+- minecraft.command.msg:
+    value: false
+- minecraft.command.particle:
+    value: false
+- minecraft.command.say:
+    value: false
+- minecraft.command.scoreboard:
+    value: false
+- minecraft.command.seed:
+    value: false
+- minecraft.command.spectate:
+    value: false
+- minecraft.command.team:
+    value: false
+- minecraft.command.teammsg:
+    value: false
+- minecraft.command.tell:
+    value: false
+- minecraft.command.tellraw:
+    value: false
+- minecraft.command.trigger:
+    value: false
+- minecraft.command.w:
+    value: false
+- plhide.group.spectator
+- purpur.bypassIdleKick
+- vane.core.resource_pack.bypass
+- vane.trifles.commands.finditem:
+    value: false
+- vanillatweaks.afkdisplay:
+    value: false
+- vanillatweaks.durabilityping:
+    value: false
+- vanillatweaks.moremobheads:
+    value: false
+- vanillatweaks.multiplayersleep:
+    value: false
+- vanillatweaks.spectatortoggle
+- vanillatweaks.spectatortoggle.conduitpower
+- vanillatweaks.spectatortoggle.nightvision
+- voicechat.connect:
+    value: false
+- voicechat.speak:
+    value: false
+- voicechat_interaction:
+    value: false

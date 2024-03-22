@@ -3,7 +3,7 @@ config-version: 16
 
 disable-outdated-config-warning: false
 
-check-for-updates: true
+check-for-updates: false
 
 bungeecord-mode: false
 
