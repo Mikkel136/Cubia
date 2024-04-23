@@ -36,9 +36,14 @@ world/stats/
 world/session.lock
 world/*.dat
 world/*.dat_old
-
-world_nether/
-world_the_end/
+world_nether/DIM-1/
+world_nether/*.dat
+world_nether/*.dat_old
+world_nether/session.lock
+world_the_end/DIM1/
+world_the_end/*.dat
+world_the_end/*.dat_old
+world_the_end/session.lock
 
 
 
