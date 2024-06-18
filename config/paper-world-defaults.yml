@@ -12,7 +12,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-_version: 30
+_version: 31
 allow-leashing-undead-horse: true
 anticheat:
   anti-xray:
@@ -141,7 +141,6 @@ entities:
       wither: true
       wither-skeleton: true
     spiders-immune-to-poison-effect: true
-    undead-immune-to-certain-effects: true
   sniffer:
     boosted-hatch-time: default
     hatch-time: default
@@ -246,6 +245,7 @@ environment:
       min: 20
     enabled: true
   generate-flat-bedrock: false
+  locate-structures-outside-world-border: false
   max-block-ticks: 65536
   max-fluid-ticks: 65536
   nether-ceiling-void-damage-height: disabled

@@ -24,6 +24,12 @@ whitelist.json
 
 
 
+# Don't distribute Paper-Remapped plugins
+
+plugins/.paper-remapped/
+
+
+
 # Ignore World Files (except data packs and config)
 
 world/advancements/
@@ -70,6 +76,7 @@ plugins/PL-Hide-?.?.???.jar
 plugins/PL-Hide-?.?.??.jar
 plugins/PL-Hide-?.?.?.jar
 plugins/PL-Hide-?.?.jar
+plugins/ServerLinks-?.?.?.jar
 plugins/ShareCoordinates-?.??.?.jar
 plugins/ShareCoordinates-?.??.jar
 plugins/voicechat-bukkit-?.?.??.jar
@@ -140,6 +147,7 @@ plugins/Brewery/configs/
 plugins/Brewery/languages/
 plugins/CoreProtect/.license
 plugins/CoreProtect/language.yml
+plugins/CustomDiscs/lang.yml
 plugins/FunnySpits/locales.yml
 plugins/FunnySpits/locales/
 plugins/Geyser-Spigot/locales/

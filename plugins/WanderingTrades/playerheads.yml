@@ -19,11 +19,11 @@ headTrade:
       amount: 14
       # The following value was serialized from an in-game item and is not meant to be human-readable or editable. As long as it is present other options for this item will be ignored.
       itemStackAsBytes: !!binary |-
-        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgK+FgYMpMYRDMzcxLTS5KTCuxSslMzM3PS2FkYHXOL80rYWEAAEemkE03AAAA
+        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgL+RgYMpMYRDMzcxLTS5KTCuxSslMzM3PS2FmYE3OL80rYWBgYGEAAG4UmqQ6AAAA
     '2':
       # The following value was serialized from an in-game item and is not meant to be human-readable or editable. As long as it is present other options for this item will be ignored.
       itemStackAsBytes: !!binary |-
-        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgK+FgYMpMYRDJzcxLTS5KTCuxyizKz4vPzEvPL2FkYHXOL80D0gB3n6mmOgAAAA==
+        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgL+RgYMpMYRDJzcxLTS5KTCuxyizKz4vPzEvPL2FmYE3OL80rYWBgYGQAANvexKM9AAAA
   head:
     customname: <yellow>{PLAYER}'s Head
     amount: 1

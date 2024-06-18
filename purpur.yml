@@ -10,6 +10,7 @@
 
 verbose: false
 settings:
+  startup-commands: []
   register-minecraft-debug-commands: false
   bee-count-payload: false
   player-deaths-always-show-item: false
@@ -134,6 +135,10 @@ settings:
       buried_treasure: -1
       mineshaft: -1
   blocks:
+    magma-block:
+      reverse-bubble-column-flow: false
+    soul-sand:
+      reverse-bubble-column-flow: false
     cave_vines:
       max-growth-age: 25
     kelp:
@@ -193,13 +198,26 @@ settings:
       allow-higher-enchants-levels: true
   use-alternate-keepalive: false
   disable-give-dropping: true
-config-version: 34
+config-version: 35
 world-settings:
   default:
     settings:
       entity:
         shared-random: true
     mobs:
+      bogged:
+        ridable: false
+        ridable-in-water: true
+        controllable: true
+        attributes:
+          max_health: 16.0
+      armadillo:
+        ridable: false
+        ridable-in-water: true
+        controllable: true
+        attributes:
+          max_health: 12.0
+        breeding-delay-ticks: 6000
       sniffer:
         ridable: true
         ridable-in-water: true
@@ -588,6 +606,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       ravager:
+        avoid-rabbits: false
         ridable: false
         ridable-in-water: false
         controllable: true
@@ -750,6 +769,9 @@ world-settings:
         ridable-in-water: false
         controllable: true
       villager:
+        search-radius:
+          acquire-poi: 48
+          nearest-bed-sensor: 48
         ridable: false
         ridable-in-water: false
         controllable: true
@@ -1061,7 +1083,7 @@ world-settings:
         controllable: true
         attributes:
           max_health: 20.0
-        naturally-charged-chance: 0.00
+        naturally-charged-chance: 0.0
         allow-griefing: true
         bypass-mob-griefing: false
         takes-damage-from-water: false
@@ -1579,6 +1601,8 @@ world-settings:
             drops: {}
             into: minecraft:dirt_path
     gameplay-mechanics:
+      infinity-bow:
+        works-without-arrows: false
       player:
         idle-timeout:
           kick-if-idle: false
@@ -1718,7 +1742,7 @@ world-settings:
       milk-cures-bad-omen: true
       note-block-ignore-above: false
       persistent-tileentity-lore: false
-      persistent-tileentity-display-name: false
+      persistent-tileentity-display-name: true
       persistent-droppable-entity-display-names: false
       projectiles-bypass-mob-griefing: false
       tick-fluids: true

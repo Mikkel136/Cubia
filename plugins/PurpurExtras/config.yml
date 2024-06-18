@@ -96,3 +96,10 @@ settings:
   raid-totem-drops:
     chance: 0
     enabled: false
+  twerk-to-reduce-burn-time:
+    chance: 0.0
+  mobs:
+    snow_golem:
+      drop-pumpkin-when-sheared: true
+    sheep:
+      jeb-shear-random-color: false
