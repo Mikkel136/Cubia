@@ -12,6 +12,7 @@ anticheat:
     - ancient_debris
     - nether_gold_ore
     - nether_quartz_ore
+    - bone_block
     lava-obscures: false
     max-block-height: 128
     replacement-blocks: []

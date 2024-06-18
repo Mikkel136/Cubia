@@ -55,10 +55,10 @@ settings:
   blast-resistance-overrides: {}
   messages:
     sleep-not-possible: default
-    afk-broadcast-use-display-name: false
     ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
     rambar-command-output: <green>Rambar toggled <onoff> for <target>
     cannot-ride-mob: <red>You cannot ride this mob
+    afk-broadcast-use-display-name: false
     afk-broadcast-away: ''
     afk-broadcast-back: ''
     afk-tab-list-prefix: ''
@@ -177,14 +177,11 @@ settings:
   entity:
     enderman:
       short-height: false
-  food-properties: {}
   tps-catchup: true
   server-mod-name: Purpur
   allow-water-placement-in-the-end: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   enchantment:
-    allow-infinity-and-mending-together: false
-    allow-infinity-on-crossbow: false
     allow-looting-on-shears: false
     allow-unsafe-enchant-command: false
     clamp-levels: true
@@ -371,7 +368,6 @@ world-settings:
         takes-damage-from-water: true
         always-drop-exp: false
       allay:
-        respect-nbt: []
         ridable: false
         ridable-in-water: false
         controllable: true
@@ -542,7 +538,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       panda:
-        ridable: false
+        ridable: true
         ridable-in-water: false
         controllable: true
         attributes:
@@ -622,7 +618,7 @@ world-settings:
         attributes:
           max_health: 3.0
         spawn-toast-chance: 0.1
-        spawn-killer-rabbit-chance: 0.06
+        spawn-killer-rabbit-chance: 0.01
         breeding-delay-ticks: 6000
         bypass-mob-griefing: false
         takes-damage-from-water: false
@@ -676,8 +672,8 @@ world-settings:
           max_health: 4.0
         drop-pumpkin-when-sheared: true
         pumpkin-can-be-added-back: true
-        min-shoot-interval-ticks: 20
-        max-shoot-interval-ticks: 20
+        min-shoot-interval-ticks: 10
+        max-shoot-interval-ticks: 10
         snow-ball-modifier: 10.0
         attack-distance: 1.25
         bypass-mob-griefing: false
@@ -1065,7 +1061,7 @@ world-settings:
         controllable: true
         attributes:
           max_health: 20.0
-        naturally-charged-chance: 0.05
+        naturally-charged-chance: 0.00
         allow-griefing: true
         bypass-mob-griefing: false
         takes-damage-from-water: false
@@ -1275,7 +1271,7 @@ world-settings:
         lapis-persists: true
     ridable-settings:
       use-dismounts-underwater-tag: true
-      babies-are-ridable: true
+      babies-are-ridable: false
       untamed-tamables-are-ridable: true
       use-night-vision: false
     hunger:
@@ -1618,7 +1614,6 @@ world-settings:
           show-particles: false
           show-icon: true
       disable-oxidation-proximity-penalty: false
-      mending-multiplier: 1.0
       clamp-explosion-radius: true
       milk-clears-beneficial-effects: true
       arrow:
@@ -1668,7 +1663,6 @@ world-settings:
       elytra:
         damage-per-second: 1
         damage-multiplied-by-speed: 0.0
-        ignore-unbreaking: false
         damage-per-boost:
           firework: 0
           trident: 0
@@ -1699,16 +1693,11 @@ world-settings:
         - minecraft:diamond_pickaxe
         - minecraft:netherite_pickaxe
       projectile-damage:
-        snowball: 1
+        snowball: 1.0
         armor-click-equip:
           allow-hot-swapping: true
           creative-makes-copy: true
         ridable-in-water: false
-      infinity-bow:
-        works-without-arrows: false
-        normal-arrows: true
-        spectral-arrows: true
-        tipped-arrows: false
       projectile-offset:
         bow: 1.0
         crossbow: 1.0
@@ -1723,13 +1712,13 @@ world-settings:
         eject-players-on-land: false
         do-fall-damage: true
       disable-drops-on-cramming-death: false
-      entities-can-use-portals: true
       entities-pick-up-loot-bypass-mob-griefing: false
       fireballs-bypass-mob-griefing: false
       impose-teleport-restrictions-on-gateways: false
       milk-cures-bad-omen: true
       note-block-ignore-above: false
-      persistent-tileentity-display-names-and-lore: false
+      persistent-tileentity-lore: false
+      persistent-tileentity-display-name: false
       persistent-droppable-entity-display-names: false
       projectiles-bypass-mob-griefing: false
       tick-fluids: true
@@ -1737,7 +1726,7 @@ world-settings:
       trident-loyalty-void-return-height: 0.0
       void-damage-height: -64.0
       void-damage-dealt: 4.0
-      raid-cooldown-seconds: 0
+      raid-cooldown-seconds: 15
       animal-breeding-cooldown-seconds: 0
       mobs-ignore-rails: false
       rain-stops-after-sleep: true
