@@ -4,7 +4,9 @@ permissions:
 - allow.ride.ender_dragon
 - allow.ride.ghast
 - allow.ride.llama
+- allow.ride.panda
 - allow.ride.pig
+- allow.ride.sniffer
 - allow.ride.strider
 - allow.ride.trader_llama
 - allow.special.llama
