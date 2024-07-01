@@ -402,3 +402,12 @@ cartLimits:
   # and trains longer than this cannot be spawned
   # A value of -1 disables this limit, allowing any length (default)
   maxCartsPerTrain: -1
+
+# Whether to automatically unpack folders in the /train model search dialog
+# If true, will show models in place of folders if there are few inside
+# If false, will always show all folders, even if there's only one model inside
+modelSearchCompactFolders: true
+
+# Maximum radius that can be set for the keep chunks loaded property of a train
+# The default is radius is 2, which loads a 5x5 chunk area. Avoid abuse, don't make it too big.
+maxKeepChunksLoadedRadius: 7
