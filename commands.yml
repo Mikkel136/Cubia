@@ -15,3 +15,5 @@ ignore-vanilla-permissions: false
 aliases:
   texture:
   - trigger CustomModelData set $$1
+  c:
+  - trigger share_coordinates

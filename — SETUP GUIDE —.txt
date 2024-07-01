@@ -46,12 +46,6 @@ Hat by Sigong
 >> Allow any block/item to be equipped to your head <<
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
-Share Coordinates by MrAlby	>>    
-	https://www.spigotmc.org/resources/share-coordinates.80632/
-.................................................
->> Add /c command to quickly share coordinates <<
-¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
-
 SquareMarker by SentixDev
 	https://github.com/SentixDev/squaremarker/releases
 ...................................................
