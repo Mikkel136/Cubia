@@ -92,9 +92,9 @@ plugins/voicechat-interaction-paper-v?.?.?+?.??.jar
 plugins/BetterMessages/data/
 plugins/BKCommonLib/minecraft/
 plugins/BKCommonLib/resourcepacks/
-plugins/Brewery/data.yml
-plugins/Brewery/worlddata.yml
-plugins/Brewery/worlddataBackup.yml
+plugins/BreweryX/data.yml
+plugins/BreweryX/worlddata.yml
+plugins/BreweryX/worlddataBackup.yml
 plugins/bStats/
 plugins/CoreProtect/.license
 plugins/CoreProtect/database.db
@@ -143,8 +143,8 @@ plugins/WanderingTrades/trades/
 # Exclude non-essential config like translations
 
 server-icon.png
-plugins/Brewery/configs/
-plugins/Brewery/languages/
+plugins/BreweryX/configs/
+plugins/BreweryX/languages/
 plugins/CoreProtect/.license
 plugins/CoreProtect/language.yml
 plugins/CustomDiscs/lang.yml

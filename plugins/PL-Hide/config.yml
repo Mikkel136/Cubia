@@ -88,9 +88,10 @@ groups:
       - wanderingtrades
       - wanderingtrades:wt
       - wanderingtrades:wanderingtrades
-      - brewery
-      - brewery:brew
-      - brewery:brewery
+      - breweryx
+      - breweryx:brew
+      - breweryx:brewery
+      - breweryx:breweryx
       - builderswand:bw
       - builderswand:builderswand
       - hat:hat

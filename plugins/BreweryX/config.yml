@@ -7,8 +7,11 @@
 # Languagefile to be used (found in plugins/Brewery/languages)
 language: en
 
+# Prefix used on messages
+pluginPrefix: '&2[Brewery]&f '
+
 # If the player wakes up at /home when logging in after excessive drinking (/home plugin must be installed!) [true]
-enableHome: false
+enableHome: true
 
 # Type of the home-teleport: ['cmd: home']
 # bed = Player will be teleported to his spawn bed
@@ -27,21 +30,21 @@ enableLoginDisallow: true
 # If the Player faints shortly (gets kicked from the server) if he drinks the max amount of alcohol possible [false]
 enableKickOnOverdrink: false
 
-# If the Player vomits on high drunkeness (drops item defined below) [true]
+# If the Player vomits on high drunkenness (drops item defined below) [true]
 # The item can not be collected and stays on the ground until it despawns.
 enablePuke: true
 
 # Item that is dropped multiple times uncollectable when puking [Soul_Sand]
-pukeItem: Soul_Sand
+pukeItem: [Soul_Sand]
 
 # Time in seconds until the pukeitems despawn, (mc default is 300 = 5 min) [60]
 # If the item despawn time was changed in the spigot.yml, the pukeDespawntime changes as well.
 pukeDespawntime: 90
 
 # How much the Player stumbles depending on the amount of alcohol he drank. Can be set to 0 and higher than 100 [100]
-stumblePercent: 280
+stumblePercent: 100
 
-# Display his drunkeness to the player when he drinks a brew or eats a drainItem [true]
+# Display his drunkenness to the player when he drinks a brew or eats a drainItem [true]
 showStatusOnDrink: true
 
 # Consumable Item/strength. Decreases the alcohol level by <strength> when consumed. (list)
@@ -65,9 +68,18 @@ alwaysShowQuality: true
 # Always show the alcohol content on the item. If false, it will only show in the brewing stand [false]
 alwaysShowAlc: true
 
+# If we should show who brewed the drink [false]
+showBrewer: false
+
+# If barrels are only created when the sign placed contains the word "barrel" (or a translation when using another language) [true]
+requireKeywordOnSigns: true
+
 # If aging in -Minecraft- Barrels in enabled [true] and how many Brewery drinks can be put into them [6]
 ageInMCBarrels: false
 maxBrewsInMCBarrels: 12
+
+# Duration (in minutes) of a "year" when aging drinks [20]
+agingYearDuration: 20
 
 # The used Ingredients and other brewing-data is saved to all Brewery Items. To prevent
 # hacked clients from reading what exactly was used to brew an item, the data can be encoded/scrambled.
@@ -76,11 +88,11 @@ maxBrewsInMCBarrels: 12
 # When using Brews on multiple (BungeeCord) Servers, define a shared Database below at 'multiServerDB'
 # So enable this if you want to make recipe cheating harder, but don't share any brews by world download, schematics, or other means. [false]
 enableEncode: false
-encodeKey: 7565003328058589684
+encodeKey: -8828889766880738846
 
 # Enable checking for Updates, Checks the curseforge api for updates to Brewery [true]
 # If an Update is found a Message is logged on Server-start and displayed to OPs joining the game
-updateCheck: true
+updateCheck: false
 
 # Autosave interval in minutes [3]
 autosave: 2
@@ -100,7 +112,7 @@ version: '3.1'
 #  material: Which type the item has to be
 #  name: Which name the item has to be (Formatting codes possible: such as &6)
 #  lore: What has to be in the lore of the item
-
+#  customModelData: Custom Model Data Int. Whatever Model data number the item has to have in a list format
 customItems:
   # Three Example Items
   ex-item:
@@ -411,7 +423,7 @@ cauldron:
 # cookingtime: Time in real minutes ingredients have to boil
 # distillruns: How often it has to be distilled for full alcohol (0=without distilling)
 # distilltime: How long (in seconds) one distill-run takes (0=Default time of 40 sec) MC Default would be 20 sec
-# wood: Wood of the barrel 0=any 1=Birch 2=Oak 3=Jungle 4=Spruce 5=Acacia 6=Dark Oak 7=Crimson 8=Warped
+# wood: Wood of the barrel 0=any 1=Birch 2=Oak 3=Jungle 4=Spruce 5=Acacia 6=Dark Oak 7=Crimson 8=Warped 9=Mangrove 10=Cherry 11=Bamboo (12=Cut Copper)
 #   The Minecraft barrel is made of oak
 # age: Time in Minecraft-days, the potion has to age in a barrel 0=no aging
 # color: Color of the potion after distilling/aging.
@@ -426,6 +438,7 @@ cauldron:
 #   Specific Commands for quality possible, using + bad, ++ normal, +++ good, added to the front of the line.
 # drinkmessage: Chat-message to the Player when drinking the Brew
 # drinktitle: Title on Screen to the Player when drinking the Brew
+# glint: Boolean if the item should have a glint (enchant glint)
 # customModelData: Custom Model Data Tag. This is a number that can be used to add custom textures to the item.
 #   Can specify one for all, or one for each quality, separated by /
 # effects: List of effect/level/duration  Special potion-effect when drinking, duration in sek.
@@ -467,6 +480,7 @@ recipes:
       - homes
     drinkmessage: Tastes good
     drinktitle: Warms you from inside
+    glint: true
     customModelData: 556/557/557
     effects:
       - FIRE_RESISTANCE/20
@@ -760,7 +774,7 @@ recipes:
     wood: 0
     age: 3
     lore: Made with raw egg
-
+    
   cola:
     name: Coca Cola
     ingredients:
@@ -882,12 +896,12 @@ useLogBlock: true
 
 # -- MultiServer/BungeeCord --
 # If Brewery is running on multiple connected Servers (via BungeeCord)
-# a shared Database can be used here to synchronise drunkeness and to be able to use encoded brews between them.
+# a shared Database can be used here to synchronise drunkenness and to be able to use encoded brews between them.
 
 multiServerDB:
   # If using the Database is enabled
   enabled: false
-  # If the drunkeness of players should be synchronised between Servers
+  # If the drunkenness of players should be synchronised between Servers
   syncDrunkeness: true
   host: localhost
   port: '3306'
@@ -904,7 +918,7 @@ useOffhandForCauldron: false
 # If Barrel and Cauldron data can be loaded Async/in the Background [true]
 loadDataAsync: true
 
-# Time (in days) that drunkeness-data stays in memory after a player goes offline, to apply hangover etc. [7]
+# Time (in days) that drunkenness-data stays in memory after a player goes offline, to apply hangover etc. [7]
 hangoverDays: 7
 
 # Color the Item information (lore) depending on quality while it is 1. in a barrel and/or 2. in a brewing stand [true, true]
@@ -966,7 +980,7 @@ distortBypass:
 # to: What to replace it with.
 # pre: Words and Letters before the wanted word (split with ",")
 # match: true = one of the "pre"-Words has to be before the wanted Word,  false = none of the "pre" Words is allowed before the wanted Word
-# alcohol: 1-100 minimum drunkeness after which this word ist replaced
+# alcohol: 1-100 minimum drunkenness after which this word ist replaced
 # percentage: Probability of replacing a Word in percent
 
 words:
@@ -1213,8 +1227,8 @@ words:
 
 -  replace: -all
    to: '*burp*'
-   percentage: 9
-   alcohol: 75
+   percentage: 6
+   alcohol: 80
    
 -  replace: xd
    to: XD
