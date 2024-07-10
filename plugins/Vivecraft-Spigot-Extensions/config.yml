@@ -1,3 +1,6 @@
+settingOverrides:
+  # Forces players to use the raw item position setting
+  thirdPersonItems: false
 SendPlayerData:
   enabled: true
 CreeperRadius:
