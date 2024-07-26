@@ -17,3 +17,5 @@ aliases:
   - trigger CustomModelData set $$1
   c:
   - trigger share_coordinates
+  tps:
+  - spark tps
